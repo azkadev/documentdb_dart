@@ -1,0 +1,3 @@
+[submodule "fork/documentdb"]
+	path = fork/documentdb
+	url = https://github.com/microsoft/documentdb
