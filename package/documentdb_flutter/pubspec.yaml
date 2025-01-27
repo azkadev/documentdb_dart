@@ -1,0 +1,35 @@
+name: 'documentdb_flutter'
+description: 'documentdb is program for help you, booster up your projects significants'
+version: '0.0.0'
+homepage: 'https://github.com/{main_username_owner}/documentdb'
+repository: 'https://github.com/{main_username_owner}/documentdb'
+issue_tracker: 'https://github.com/{main_username_owner}/documentdb/issues'
+documentation: 'https://github.com/{main_username_owner}/documentdb/tree/main/docs'
+funding:
+  - 'https://github.com/sponsors/{main_username_owner}'
+  - 'https://github.com/sponsors/{main_username_owner}'
+  - 'https://github.com/sponsors/azkadev'
+  - 'https://github.com/sponsors/generalfoss'
+platforms:
+  android: null
+  ios: null
+  linux: null
+  macos: null
+  web: null
+  windows: null
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=1.17.0'
+dependencies:
+  flutter:
+    sdk: 'flutter'
+  general_lib: '^0.0.62'
+  general_lib_flutter: '^0.0.41'
+  path: '^1.9.0' 
+dev_dependencies:
+  flutter_test:
+    sdk: 'flutter'
+  flutter_lints: '^5.0.0'
+dependency_overrides:
+  pointycastle: '3.8.0'
+  mime: '^2.0.0'
